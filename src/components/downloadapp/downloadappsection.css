@@ -1,0 +1,42 @@
+/* DOWNLOAD APP SECTION */
+.home-page-download-app-container {
+    text-align: center;
+    padding: 100px 7%;
+}
+
+.home-page-download-app-container h2 {
+    font-size: 42px;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.home-page-download-app-container p {
+    color: #706f7b;
+    text-align: center;
+    font-size: 16px;
+    font-family: Rubik, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 35px;
+}
+
+.home-page-download-app-container img {
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+@media (min-width: 700px) {
+    .home-page-download-app-container {
+        background-image: url("../../assets/images/download-app-background-image.png");
+        background-color: #f8f8f8;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .download-app-text-container {
+        width: 550px;
+        text-align: start;
+    }
+}

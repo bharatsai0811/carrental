@@ -1,0 +1,57 @@
+/* PLAN YOUR TRIP BANNER SECTION */
+.plan-your-trip-banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 7%;
+}
+
+.plan-your-trip-banner-container h2 {
+    font-size: 42px;
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.plan-your-trip-banner-container h3 {
+    font-size: 24px;
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+.plan-your-trip-boxes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.trip-banner-boxes {
+    max-width: 600px;
+    padding: 20px 40px;
+}
+
+.trip-banner-boxes h3 {
+    font-size: 24px;
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+}
+
+.trip-banner-boxes p {
+    color: #706f7b;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 800px) {
+    .plan-your-trip-banner-container {
+        flex-wrap: wrap;
+    }
+    .trip-banner-boxes {
+        max-width: 300px;
+    }
+}

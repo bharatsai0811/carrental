@@ -1,0 +1,166 @@
+/* HOME PAGE BODY */
+.home-page-container {
+    margin-top: 110px;
+    padding: 0;
+}
+
+.background-hero-image {
+    display: none;
+}
+
+.background-hero-car-image {
+    display: none;
+}
+
+@media (min-width: 800px) {
+    .background-hero-image {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -2;
+    }
+
+    .background-hero-car-image {
+        display: block;
+        position: absolute;
+        right: 3%;
+        top: 100px;
+        z-index: -1;
+        max-width: 60%;
+    }
+}
+
+/* HERO BANNER SECTION */
+.home-page-hero-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    background-color: transparent;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.home-page-hero-banner-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-page-hero-banner-text-container h1 {
+    font-size: 50px;
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+    margin: 1rem 0;
+    line-height: 1.2;
+    
+}
+
+.home-page-hero-banner-text-container span {
+    color: orangered;
+}
+
+.home-page-hero-banner-text-container h4 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.home-page-hero-banner-text-container p {
+    color: #706f7b;
+    font-size: 17px;
+    margin-bottom: 2rem;
+}
+
+.home-page-hero-banner-buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.home-page-hero-banner-buttons-container button {
+    max-width: 250px;
+    min-width: 180px;
+    font-size: 15px;
+    padding: 18px 70px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 700;
+    font-family: Rubik, sans-serif;
+    cursor: pointer;
+}
+
+.home-page-hero-banner-buttons-container button i {
+    margin-left: 10px;
+}
+
+.orange-button {
+    background-color: orangered;
+    border: 2px solid orangered;
+    box-shadow: 0 10px 15px 0 rgba(255, 83, 48, .35);
+}
+
+.black-button {
+    background-color: black;
+    border: 2px solid black;
+    box-shadow: 0 10px 15px 0 rgba(44, 44, 44, 0.35);
+}
+
+.black-button:hover {
+    background-color: white;
+    color: black;
+}
+
+@media (min-width: 800px) {
+    .home-page-hero-banner {
+        align-items: start;
+        padding: 0 20px;
+        margin-top: 150px;
+    }
+
+    .home-page-hero-banner-text-container {
+        align-items: start;
+        width: 500px;
+    }
+
+    .home-page-hero-banner-text-container h1 {
+        text-align: start;
+    }
+
+    .home-page-hero-banner-text-container p {
+        text-align: start;
+    }
+
+    .home-page-hero-banner-buttons-container button {
+        width: 170px;
+        padding: 18px 30px; 
+    }
+}
+
+/* SALES BANNER SECTION */
+.sales-banner {
+    background-color: #2d2d2d;
+    text-align: center;
+    margin: 8rem 0;
+    padding: 2rem 1rem;
+}
+
+.sales-banner h2 {
+    font-size: 52px;
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+    margin: 15px 0;
+    color: #fff;
+}
+
+.sales-banner p {
+    color: #fff;
+    font-size: 24px;
+    font-family: poppins, sans-serif;
+    margin-bottom: 25px;
+}
+
+.sales-banner span {
+    color: orangered;
+}

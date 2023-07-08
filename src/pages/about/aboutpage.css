@@ -1,0 +1,104 @@
+.banner-background-image {
+    height: 410px;
+    background-image: url('../../assets/images/pages-banner-background-image.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-banner {
+    background-color: hsla(0,0%,100%,.92);
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3%;  
+}
+
+.page-banner h2 {
+    font-size: 36px;
+    font-family: Poppins, sans-serif;
+    line-height: 1.2;
+}
+
+.page-banner .link {
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+}
+
+.about-company-container {
+    text-align: center;
+    padding: 15% 7%;
+}
+.about-company-container .main-about-page-image {
+    width: 100%;
+}
+
+.about-company-container h3 {
+    font-size: 22px;
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.about-company-container h2 {
+    font-size: 42px;
+    font-family: Poppins, sans-serif;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.about-company-container p {
+    color: #706f7b;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.about-company-information-container {
+    padding: 20px 0 0 0;
+}
+
+.about-company-boxes-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+@media (min-width: 525px) {
+    .about-company-boxes-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .about-company-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5%;
+    }
+
+    .about-company-information-container {
+        padding: 0;
+    }
+
+    .about-company-text-container {
+        text-align: start;
+    } 
+
+    .about-company-text-container p {
+        text-align: start;
+    }
+
+    .box {
+        text-align: center;
+    }
+}

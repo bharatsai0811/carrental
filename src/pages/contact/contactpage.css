@@ -1,0 +1,146 @@
+.banner-background-image {
+    height: 410px;
+    background-image: url('../../assets/images/pages-banner-background-image.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-banner {
+    background-color: hsla(0,0%,100%,.92);
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3%;  
+}
+
+.page-banner h2 {
+    font-size: 36px;
+    font-family: Poppins, sans-serif;
+    line-height: 1.2;
+}
+
+.page-banner .link {
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+}
+
+.contact-form-and-text-container {
+    margin: 125px 7%;
+}
+
+.contact-text-container {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+@media (min-width: 950px) { 
+    .contact-form-and-text-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 30px;
+    }
+
+    .contact-text-container {
+        text-align: start;
+    }
+}
+
+.contact-text-container h2 {
+    font-size: 42px;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 25px;
+}
+
+.contact-text-container p {
+    color: #777;
+    font-size: 16px;
+    font-family: Rubik, sans-serif;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.contacts-container p {
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.form-container {
+    padding-top: 20px;
+}
+
+.form-container form {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.form-container form label {
+    width: 100%;
+    text-align: start;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    padding: 5px 5px;
+}
+
+.form-container form label b {
+    color: orangered;
+}
+
+.form-container input {
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    padding: 19px 30px;
+}
+
+.form-container textarea {
+    height: 180px;
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    outline: none;
+    padding: 19px 30px;
+    margin-bottom: 25px;
+}
+
+.form-container button {
+    background-color: orangered;
+    padding: 18px 30px;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Rubik, sans-serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
+}
+
+.form-container button i {
+    margin-right: 5px;
+}
+
+.sended-message-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.sended-message-section .social-icon {
+    font-size: 23px;
+    color: orangered !important;
+    margin-right: 40px;
+}
